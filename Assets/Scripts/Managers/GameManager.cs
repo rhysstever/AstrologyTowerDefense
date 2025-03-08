@@ -16,6 +16,9 @@ public class GameManager : MonoBehaviour
 
     private GameState currentGameState;
 
+    [SerializeField]
+    private GameObject currencyPrefab;
+
     public GameState GameState { get { return currentGameState; } }
 
     private void Awake() {
